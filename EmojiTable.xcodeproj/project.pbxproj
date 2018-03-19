@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A122BDB2205F67A600F30FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122BDB1205F67A600F30FEB /* AppDelegate.swift */; };
-		A122BDB4205F67A600F30FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122BDB3205F67A600F30FEB /* ViewController.swift */; };
 		A122BDB7205F67A600F30FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A122BDB5205F67A600F30FEB /* Main.storyboard */; };
 		A122BDB9205F67A600F30FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A122BDB8205F67A600F30FEB /* Assets.xcassets */; };
 		A122BDBC205F67A600F30FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A122BDBA205F67A600F30FEB /* LaunchScreen.storyboard */; };
 		A122BDC7205F67A600F30FEB /* EmojiTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122BDC6205F67A600F30FEB /* EmojiTableTests.swift */; };
 		A122BDD2205F67A600F30FEB /* EmojiTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122BDD1205F67A600F30FEB /* EmojiTableUITests.swift */; };
+		A122BDE0205F680200F30FEB /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122BDDF205F680200F30FEB /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A122BDAE205F67A600F30FEB /* EmojiTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A122BDB1205F67A600F30FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A122BDB3205F67A600F30FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A122BDB6205F67A600F30FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A122BDB8205F67A600F30FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A122BDBB205F67A600F30FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A122BDCD205F67A600F30FEB /* EmojiTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A122BDD1205F67A600F30FEB /* EmojiTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableUITests.swift; sourceTree = "<group>"; };
 		A122BDD3205F67A600F30FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A122BDDF205F680200F30FEB /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				A122BDB1205F67A600F30FEB /* AppDelegate.swift */,
-				A122BDB3205F67A600F30FEB /* ViewController.swift */,
 				A122BDB5205F67A600F30FEB /* Main.storyboard */,
 				A122BDB8205F67A600F30FEB /* Assets.xcassets */,
 				A122BDBA205F67A600F30FEB /* LaunchScreen.storyboard */,
 				A122BDBD205F67A600F30FEB /* Info.plist */,
+				A122BDDF205F680200F30FEB /* CanvasViewController.swift */,
 			);
 			path = EmojiTable;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A122BDB4205F67A600F30FEB /* ViewController.swift in Sources */,
+				A122BDE0205F680200F30FEB /* CanvasViewController.swift in Sources */,
 				A122BDB2205F67A600F30FEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
