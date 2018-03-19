@@ -8,16 +8,16 @@ Time spent: **X** hours spent in total
 
 The following **required** user stories are complete:
 
-- [ ] Add and Configure View Elements (+1pt)
+- [X] Add and Configure View Elements (+1pt)
 - [X] User can use a pan gesture to move the position of the tray (+1pt)
 - [X] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
-- [ ] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [ ] User can pan faces on the canvas (+1pt)
+- [X] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
+- [X] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
-- [ ] Tray bounces when returning to it's up or down positions (+1pt)
-- [ ] User sees as new face scale up and back down to simulate a "picking up and dropping" appearance (+1pt)
+- [X] Tray bounces when returning to it's up or down positions (+1pt)
+- [X] User sees as new face scale up and back down to simulate a "picking up and dropping" appearance (+1pt)
 - [ ] User can use a pinch gesture to scale faces up or down (+1pt)
 - [ ] User can use a rotation gesture to rotate the position of faces on the canvas (+1pt)
 - [ ] User sees the tray arrow adjust to point up or down in relation to the position of the tray (+1pt)
